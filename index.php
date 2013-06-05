@@ -2,7 +2,10 @@
 require_once('idna_convert.class.php');
 $IDN = new idna_convert();
 
-$hostname = $_SERVER['HTTP_HOST'];
+$hostname = 'rueckgr.at';
+if(isset($_SERVER['HTTP_HOST')) {
+	$hostname = $_SERVER['HTTP_HOST'];
+}
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
     "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
