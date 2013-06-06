@@ -30,6 +30,7 @@ if(isset($_SERVER['HTTP_HOST'])) {
 			<li><a href="//punkte.huntu.at">punkte.huntu.at</a> &ndash; the grading tool of <a href="http://huntu.at">hunTU</a></li>
 			<li><a href="//ntp.rueckgr.at">ntp.rueckgr.at</a> &ndash; an NTP server free to use for everyone that participates in the <a href="http://www.pool.ntp.org">NTP pool project</a></li>
 			<li><a href="/cb">rueckgr.at/cb</a> &ndash; a complete archive of the ChatBox at <a href="http://www.informatik-forum.at">informatik-forum.at</a> (not publicly accessible; send a mail to the address specified in the footer if you desire access)</li>
+			<li><a href="/mimetex">rueckgr.at/mimetex</a> &ndash; an installation of <a href="http://www.forkosh.com/mimetex.html">mimetex</a> that is used for rendering formulae at <a href="http://www.informatik-forum.at">informatik-forum.at</a>.
 			<!-- <li><a href="//staroch.name">staroch.name</a> &ndash; Personal page of the server operator</li> -->
 		</ul>
 		<p>
