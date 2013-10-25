@@ -6,3 +6,12 @@ RewriteRule ^([a-z][a-z])/(.*)$ index.php?lang=$1&request=$2 [QSA]
 
 SetOutputFilter DEFLATE
 
+Options -Indexes
+
+Redirect /wl https://rueckgr.at/wienerlinien
+Redirect /cb https://rueckgr.at/~paulchen/chatbox/?refresh=on
+Redirect /cb_dev https://rueckgr.at/~paulchen/chatbox_dev/?refresh=on
+Redirect /cb-dev https://rueckgr.at/~paulchen/chatbox_dev/?refresh=on
+Redirect /cbdev https://rueckgr.at/~paulchen/chatbox_dev/?refresh=on
+Redirect /chatbox https://rueckgr.at/~paulchen/chatbox/?refresh=on
+

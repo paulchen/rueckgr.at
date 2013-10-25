@@ -1,6 +1,6 @@
 <?php
 
-require_once('idna_convert.class.php');
+require_once(dirname(__FILE__) . '/../lib/idna_convert.class.php');
 $IDN = new idna_convert();
 
 $hostname = 'rueckgr.at';
