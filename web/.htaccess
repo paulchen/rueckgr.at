@@ -8,10 +8,11 @@ SetOutputFilter DEFLATE
 
 Options -Indexes
 
-Redirect /wl https://rueckgr.at/wienerlinien
-Redirect /cb https://rueckgr.at/~paulchen/chatbox/?refresh=on
-Redirect /cb_dev https://rueckgr.at/~paulchen/chatbox_dev/?refresh=on
-Redirect /cb-dev https://rueckgr.at/~paulchen/chatbox_dev/?refresh=on
-Redirect /cbdev https://rueckgr.at/~paulchen/chatbox_dev/?refresh=on
-Redirect /chatbox https://rueckgr.at/~paulchen/chatbox/?refresh=on
+Redirect /wl /wienerlinien
+Redirect /wldev /wienerlinien_dev
+Redirect /cb /~paulchen/chatbox/?refresh=on
+Redirect /cb_dev /~paulchen/chatbox_dev/?refresh=on
+Redirect /cb-dev /~paulchen/chatbox_dev/?refresh=on
+Redirect /cbdev /~paulchen/chatbox_dev/?refresh=on
+Redirect /chatbox /~paulchen/chatbox/?refresh=on
 
