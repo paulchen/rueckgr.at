@@ -1,6 +1,6 @@
 <?php
 
-require_once('idna_convert.class.php');
+require_once(dirname(__FILE__) . '/../lib/idna_convert.class.php');
 $IDN = new idna_convert();
 
 $hostname = 'rueckgr.at';
@@ -41,6 +41,10 @@ closedir($dir);
 $language_links = array();
 foreach($languages as $language) {
 	$language_links[$language] = preg_replace("+/$lang/+", "/$language/", $_SERVER['REQUEST_URI'], 1);
+}
+
+if(!isset($_REQUEST['request'])) {
+	$_REQUEST['request'] = '';
 }
 
 switch($_REQUEST['request']) {
