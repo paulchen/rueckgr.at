@@ -22,26 +22,7 @@
 		<li><a href="//staroch.name">staroch.name</a> &ndash; Personal page of the server operator</li>
 		<li><a href="https://cloud.rueckgr.at">cloud.rueckgr.at</a> &ndash; An instance of <a href="http://owncloud.org/">ownCloud</a></li>
 		<li><a href="https://irc.rueckgr.at/about">irc.rueckgr.at</a> &ndash; An <a href="http://en.wikipedia.org/wiki/Internet_Relay_Chat">IRC</a> server</li>
-		<li><a href="https://git.rueckgr.at/">git.rueckgr.at</a> &ndash; An instance of <a href="https://about.gitlab.com/">GitLab</a> for personal projects</li>
-	</ul>
-	<p>
-		Also available:
-	</p>
-	<ul>
-		<li>
-			<?php if($hostname == 'rueckgr.at'): ?>
-				<a href="//rückgr.at">This page on rückgr.at</a>
-			<?php else: ?>
-				<a href="//rueckgr.at">This page on rueckgr.at</a>
-			<?php endif; ?>
-		</li>
-		<li>
-			<?php if(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS']): ?>
-				<a href="http://<?php echo $hostname ?>">This page without HTTPS</a>
-			<?php else: ?>
-				<a href="https://<?php echo $hostname ?>">This page via SSL</a>
-			<?php endif; ?>
-		</li>
+		<li><a href="https://git.rueckgr.at/">git.rueckgr.at</a> &ndash; An instance of <a href="https://github.com/gitbucket/gitbucket">GitBucket</a> for personal projects</li>
 	</ul>
 	<hr />
 
