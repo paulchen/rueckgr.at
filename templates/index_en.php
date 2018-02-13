@@ -7,7 +7,6 @@
 	</p>
 	<ul>
 		<li><a href="//jabber.rueckgr.at">jabber.rueckgr.at</a> &ndash; an <a href="http://xmpp.org/">XMPP</a> (Jabber) server free to use for everyone</li>
-		<li><a href="//tor.rueckgr.at">tor.rueckgr.at</a> &ndash; a <a href="https://www.torproject.org/">Tor</a> (non-exit) relay</li>
 		<li><a href="//torstatus.rueckgr.at">torstatus.rueckgr.at</a> &ndash; a TorStatus page</li>
 		<li><a href="//mail.rueckgr.at">mail.rueckgr.at</a> &ndash; a mail server</li>
 		<!-- <li><a href="//pad.rueckgr.at">pad.rueckgr.at</a> &ndash; an installation of <a href="http://etherpad.org/">Etherpad</a></li> -->
