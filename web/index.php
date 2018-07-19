@@ -9,6 +9,33 @@ if(isset($_SERVER['HTTP_HOST'])) {
 }
 $decoded_hostname = $IDN->decode($hostname);
 
+$hostname_whitelist = array('rueckgr.at', 'rückgr.at');
+$found = false;
+foreach($hostname_whitelist as $whitelisted_domain) {
+	if(mb_strlen($decoded_hostname) < mb_strlen($whitelisted_domain)) {
+		continue;
+	}
+	if($decoded_hostname == $whitelisted_domain) {
+		$found = true;
+	}
+	else {
+		if(mb_strlen($decoded_hostname) <= mb_strlen($whitelisted_domain)) {
+			continue;
+		}
+		if(mb_substr($decoded_hostname, -mb_strlen($whitelisted_domain)-1) == ".$whitelisted_domain") {
+			$found = true;
+		}
+	}
+	if($found) {
+		break;
+	}
+}
+
+if(!$found) {
+	header('Location: https://rueckgr.at/');
+	die();
+}
+
 $default_lang = 'en';
 if(isset($_REQUEST['lang'])) {
 	header("Location: /");
