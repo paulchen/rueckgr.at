@@ -8,7 +8,7 @@ if(!preg_match('/^[a-z]+/', $lang)) {
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 	<meta name="viewport" content="initial-scale=.4, user-scalable=yes" />
 	<title><?php echo $IDN->decode($hostname) ?></title>
-	<link rel="stylesheet" type="text/css" href="../css/main.css" />
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
 </head>
 <body class="centered_page">
 	<div class="main_pane">

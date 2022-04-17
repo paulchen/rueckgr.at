@@ -8,7 +8,6 @@
 	<ul>
 		<li><a href="//torstatus.rueckgr.at">torstatus.rueckgr.at</a> &ndash; a TorStatus page</li>
 		<li><a href="//mail.rueckgr.at">mail.rueckgr.at</a> &ndash; a mail server</li>
-		<!-- <li><a href="//pad.rueckgr.at">pad.rueckgr.at</a> &ndash; an installation of <a href="http://etherpad.org/">Etherpad</a></li> -->
 		<li><a href="//apeiron.rueckgr.at">apeiron.rueckgr.at</a> &ndash; notes from Math lectures at <a href="http://www.tuwien.ac.at/en/tuwien_home/">TU Wien</a></li>
 		<li><a href="//punkte.huntu.at">punkte.huntu.at</a> &ndash; the grading tool of <a href="http://huntu.at">hunTU</a></li>
 		<li><a href="//ntp.rueckgr.at">ntp.rueckgr.at</a> &ndash; an <a href="http://www.ntp.org/">NTP</a> server free to use for everyone that participates in the <a href="http://www.pool.ntp.org">NTP pool project</a></li>
@@ -19,7 +18,7 @@
 		<li><a href="//isttuweldown.rueckgr.at">isttuweldown.rueckgr.at</a> &ndash; a page showing whether <a href="https://tuwel.tuwien.ac.at/">TUWEL</a> (the e-learning platform of the <a href="http://www.tuwien.ac.at/en/tu-wien/">TU Wien</a>); the current state is determined using <a href="https://www.icinga.org/">Icinga</a>.
 		<li><a href="//staroch.name">staroch.name</a> &ndash; Personal page of the server operator</li>
 		<li><a href="//cloud.rueckgr.at">cloud.rueckgr.at</a> &ndash; An instance of <a href="http://nextcloud.com/">Nextcloud</a></li>
-		<li><a href="//irc.rueckgr.at/about">chat.rueckgr.at</a> &ndash; An instance of <a href="https://rocket.chat">Rocket.Chat</a></li>
+		<li><a href="//chat.rueckgr.at/">chat.rueckgr.at</a> &ndash; An instance of <a href="https://rocket.chat">Rocket.Chat</a></li>
 		<li><a href="//mtb-projekt.at/">MTB-Projekt</a> &ndash; collection of course transcripts and exams from the Computer Science studies at <a href="http://www.tuwien.ac.at/en/tu-wien/">TU Wien</a></li>
 	</ul>
 	<hr />
