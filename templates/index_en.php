@@ -8,7 +8,6 @@
 	<ul>
 		<li><a href="//torstatus.rueckgr.at">torstatus.rueckgr.at</a> &ndash; a TorStatus page</li>
 		<li><a href="//mail.rueckgr.at">mail.rueckgr.at</a> &ndash; a mail server</li>
-		<li><a href="//apeiron.rueckgr.at">apeiron.rueckgr.at</a> &ndash; notes from Math lectures at <a href="http://www.tuwien.ac.at/en/tuwien_home/">TU Wien</a></li>
 		<li><a href="//punkte.huntu.at">punkte.huntu.at</a> &ndash; the grading tool of <a href="http://huntu.at">hunTU</a></li>
 		<li><a href="//ntp.rueckgr.at">ntp.rueckgr.at</a> &ndash; an <a href="http://www.ntp.org/">NTP</a> server free to use for everyone that participates in the <a href="http://www.pool.ntp.org">NTP pool project</a></li>
 		<li><a href="/cb">rueckgr.at/cb</a> &ndash; a complete archive of the ChatBox at Informatik-forum.at (not publicly accessible; send a mail to the address specified in the footer if you desire access)</li>
